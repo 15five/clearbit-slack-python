@@ -1,6 +1,6 @@
 import json
 from slacker import Slacker
-from clearbit.slack.attachments import Company, Person
+from clearbit_slack.attachments import Company, Person
 
 
 class Notifier(object):

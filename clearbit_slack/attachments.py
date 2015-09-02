@@ -1,6 +1,7 @@
-from clearbit.slack.helpers import angellist, linkedin, twitter, field, format_number, aboutme
-from clearbit.slack.helpers import facebook
-
+from clearbit_slack.helpers import (
+    angellist, linkedin, twitter,
+    facebook, field, format_number, aboutme,
+)
 
 class Company(object):
 
