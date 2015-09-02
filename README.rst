@@ -1,7 +1,5 @@
-Clearbit Slack Notifier
-=======================
-pypi:: clearbit-slack-python
------------------------------
+clearbit-slack-python
+=====================
 
 Clean beautiful customer data. Now in Slack.
 
@@ -10,13 +8,13 @@ Clean beautiful customer data. Now in Slack.
 Installation
 ------------
 
-Add to your application's requirements.txt file:
+Add to your application's requirements.txt file...
 
 ::
 
     clearbit-slack-python
 
-Or pip install:
+Or pip install...
 
 ::
 
@@ -25,8 +23,8 @@ Or pip install:
 Configuration
 -------------
 
-To use, instantiate a :py:class:`~clearbit_slack.notifier.Notifier`
-object with your Slack token, channel, and data :py:class:`dict` built
+To use, instantiate a **Notifier**
+object with your Slack token, channel, and data **dict** built
 from part of the body of the POST request sent by Clearbit.
 
 ::
