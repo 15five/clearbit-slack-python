@@ -20,7 +20,7 @@ def link(url, title, followers=''):
 
 
 def aboutme(aboutme_dict):
-    aboutme_handle = aboutme_dict['handle']
+    aboutme_handle = aboutme_dict.get('handle')
     if not aboutme_handle:
         return ''
     value = link("https://about.me/{}".format(aboutme_handle), aboutme_handle)
@@ -28,7 +28,7 @@ def aboutme(aboutme_dict):
 
 
 def angellist(angellist_dict):
-    angellist_handle = angellist_dict['handle']
+    angellist_handle = angellist_dict.get('handle')
     if not angellist_handle:
         return ''
     value = link("https://angel.co/{}".format(angellist_handle),
@@ -38,7 +38,7 @@ def angellist(angellist_dict):
 
 
 def github(github_dict):
-    github_handle = github_dict['handle']
+    github_handle = github_dict.get('handle')
     if not github_handle:
         return ''
     value = link("https://github.com/{}".format(github_handle),
@@ -48,7 +48,7 @@ def github(github_dict):
 
 
 def facebook(facebook_dict):
-    facebook_handle = facebook_dict['handle']
+    facebook_handle = facebook_dict.get('handle')
     if not facebook_handle:
         return ''
     value = link("https://www.facebook.com/{}".format(facebook_handle), facebook_handle)
@@ -56,7 +56,7 @@ def facebook(facebook_dict):
 
 
 def twitter(twitter_dict):
-    twitter_handle = twitter_dict['handle']
+    twitter_handle = twitter_dict.get('handle')
     if not twitter_handle:
         return ''
     value = link("http://twitter.com/{}".format(twitter_handle),
@@ -66,7 +66,7 @@ def twitter(twitter_dict):
 
 
 def linkedin(linkedin_dict):
-    linkedin_handle = linkedin_dict['handle']
+    linkedin_handle = linkedin_dict.get('handle')
     if not linkedin_handle:
         return ''
     value = link("https://www.linkedin.com/{}".format(linkedin_handle), linkedin_handle)
