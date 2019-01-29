@@ -5,6 +5,9 @@ Clean beautiful customer data. Now in Slack.
 
 .. image:: https://raw.githubusercontent.com/15five/clearbit-slack-python/master/docs/_static/img/example.png
 
+
+DEPRECATED IN FAVOR OF: https://pypi.org/project/clearbit/
+
 Installation
 ------------
 
